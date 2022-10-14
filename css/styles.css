@@ -129,6 +129,14 @@ img {
 }
 
 /* auth nav */
+
+
+.auth-nav-item {
+  display: block;
+  align-items: center;
+  gap: 10px;
+}
+
 .auth-nav .contact-link {
   color: var(--title-text-color);
   padding: 32px 0;
@@ -140,6 +148,11 @@ img {
 .auth-nav .contact-link:focus {
   color: var(--accent-color);
 }
+.auth-nav .auth-nav-icon:hover,
+.auth-nav .auth-nav-icon:focus {
+  fill: var(--accent-color);
+}
+
 
 .hero {
   color: var(--primary-white-color);
