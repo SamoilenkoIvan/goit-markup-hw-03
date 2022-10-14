@@ -82,11 +82,7 @@ img {
   gap: 50px;
   margin-left: 65px;
 }
-.auth-menu {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
+
 /* .nav-container {
   display: flex;
   justify-content: center;
@@ -129,12 +125,23 @@ img {
 }
 
 /* auth nav */
-
+.auth-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 
 .auth-nav-item {
   display: block;
   align-items: center;
-  gap: 10px;
+}
+.contact-link {
+  display: flex;
+    align-items: center;
+  margin-right: 10px;
+}
+.auth-nav-icon {
+  margin-right: 10px;
 }
 
 .auth-nav .contact-link {
@@ -147,9 +154,6 @@ img {
 .auth-nav .contact-link:hover,
 .auth-nav .contact-link:focus {
   color: var(--accent-color);
-}
-.auth-nav .auth-nav-icon:hover,
-.auth-nav .auth-nav-icon:focus {
   fill: var(--accent-color);
 }
 
