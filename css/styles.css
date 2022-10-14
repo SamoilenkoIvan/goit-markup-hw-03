@@ -8,6 +8,7 @@
   --secondary-background-color: #f5f4fa;
   --button-color: #188ce8;
   --logo-color: #000000;
+  --background-color-footer: rgba(255, 255, 255, 0.1);
   /* --card-set-gap: 30px; */
 }
 
@@ -142,7 +143,7 @@ img {
 
 .hero {
   color: var(--primary-white-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
 }
 .overlay {
   padding: 200px 0;
@@ -377,7 +378,10 @@ img {
 }
 
 /* footer */
-
+.container-footer {
+  display: flex;
+  gap: 70px;
+}
 .footer {
   background-color: var(--background-color);
   padding-top: 60px;
@@ -417,6 +421,42 @@ img {
 .address-list .contact-link:focus {
   color: var(--accent-color);
 }
+.net-links {
+  padding-top: 10px;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.join {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.footer-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-color-footer);
+  border-radius: 50%;
+  fill: var(--primary-white-color);
+}
+
+.footer-link:hover {
+  background-color: var(--accent-color);
+}
+
+/* .footer-link:hover .footer-icon {
+  fill: #ffffff;
+} */
 
 /* portfolio */
 /* filter */
